@@ -1,0 +1,106 @@
+.MainDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    gap: 10px;
+    margin-bottom: 30px;
+  }
+  .MainInput {
+    height: 40px;
+    width: 30%;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    background-color: antiquewhite;
+    color: rgb(51, 0, 51);
+  }
+  input[type="text"] {
+    text-indent: 15px;
+  }
+  .MainInput::placeholder {
+    color: rgb(51, 0, 51);
+  }
+  .MainBtn {
+    background-color: #dfa8e4;
+    border: none;
+    height: 40px;
+    width: 10%;
+    border-radius: 5px;
+    color: rgb(51, 0, 51);
+    cursor: pointer;
+    font-size: 16px;
+  } 
+  .CardMain {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid white;
+    margin-top: 5px;
+    width: 94%;
+    border-radius: 10px;
+    background-color: antiquewhite;
+    gap: 60px;
+    padding: 3%;
+  }
+  .CardImg {
+    border: 3px solid rgb(51, 0, 51);
+  }
+  .title {
+    font-size: xx-large;
+    color: rgb(51, 0, 51);
+    font-weight: 700;
+  }
+  .CuisineTypeNameandValueMain {
+    display: flex;
+    margin-top: 20px;
+    font-size: 18px;
+    color: rgb(51, 0, 51);
+    gap: 5px;
+  }
+  .CuisineTypeNameandValueMainInner {
+    font-weight: 600;
+  }
+  .ingredientsMain {
+    display: flex;
+    color: rgb(51, 0, 51);
+    margin-top: 20px;
+    font-size: 18px;
+  }
+  .ingredientsInnerOne {
+    font-size: 18px;
+    color: rgb(51, 0, 51);
+    font-weight: 600;
+  }
+  .CardFooterTitleTwo {
+    display: flex;
+    flex-wrap: wrap;
+    color: rgb(51, 0, 51);
+    font-size: 18px;
+    margin-top: 20px;
+    line-height: 25px;
+  }
+  .CardFooterTitleOne {
+    color: rgb(51, 0, 51);
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .cuisineTypeInner {
+    text-transform: capitalize;
+    font-size: 18px;
+  }
+
+  @media only screen and (max-width: 1000px) {
+    .CardMain{
+      display: flex;
+      flex-direction: column;
+    }
+  }
+  @media only screen and (max-width:660px){
+    .MainInput{
+      width: 40%;
+    }
+  }
+  
